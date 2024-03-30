@@ -22,7 +22,7 @@ export default function Contact() {
             <Icon className="h-16 w-16" icon="ic:baseline-email" />
             <div className="flex flex-col">
               <h1 className="text-white text-2xl font-bold mx-2">
-                Send me email at:
+                Email
               </h1>
               <p className="text-gray-400 mx-2">janlibydelacosta@gmail.com</p>
             </div>

@@ -68,7 +68,7 @@ export default function Footer() {
       </div>
       <div className="mt-8 w-full relative bottom-0 text-center flex items-center justify-center py-2 bg-gray-700">
         <p className="text-gray-400">
-          Made with 💙 and ☕ libyzxy0{" "}
+          Made with 💙 and ☕ by
           <a
             className="text-sky-300 hover:underline"
             href="https://libyzxy0.com"
