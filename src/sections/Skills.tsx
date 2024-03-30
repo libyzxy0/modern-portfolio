@@ -6,7 +6,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import SlideAnimation from "@/components/slideInAnimation";
-import skillsData from "@/data/skills";
+import skillsData from "@/data/skills.json";
 
 type Skill = {
   name: string;

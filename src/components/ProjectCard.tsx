@@ -9,7 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import skillsData from "@/data/skills";
+import skillsData from "@/data/skills.json";
 
 interface ProjectCardProps {
   title: string;
