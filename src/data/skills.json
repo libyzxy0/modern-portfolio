@@ -44,6 +44,10 @@
     "icon": "logos:bootstrap"
   },
   {
+    "name": "ShadcnUI",
+    "icon": "simple-icons:shadcnui"
+  },
+  {
     "name": "Vercel",
     "icon": "skill-icons:vercel-dark"
   },

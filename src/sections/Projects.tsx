@@ -1,6 +1,7 @@
 import Project from "@/components/ProjectCard";
 import tikDownThumbnail from "@/assets/images/tikdown-click.png";
 import shotiThumbnail from "@/assets/images/shoti-api.png";
+import pThumbnail from "@/assets/images/modern-portfolio.png";
 export default function Projects() {
   return (
     <>
@@ -18,6 +19,8 @@ export default function Projects() {
           <Project
             title="TikDown.click"
             description="A website where you can download tiktok videos without watermark."
+            link="https://tikdown.click"
+            repo="https://github.com/libyzxy0/tiktok-downloader"
             image={tikDownThumbnail}
             langs={["Vue", "JavaScript", "Tailwindcss", "Express", "Vercel"]}
           />
@@ -25,6 +28,8 @@ export default function Projects() {
             title="Shoti API"
             description="API that sends a lot of beautiful, cute, and hot girl tiktok videos."
             image={shotiThumbnail}
+            link="https://shoti-api.deno.dev"
+            repo="https://github.com/libyzxy0/shoti"
             langs={[
               "Nuxt",
               "JavaScript",
@@ -32,6 +37,18 @@ export default function Projects() {
               "Node.js",
               "Tailwindcss",
               "MongoDB",
+            ]}
+          />
+          <Project
+            title="Modern Portfolio"
+            description="A modern portfolio using react, tailwindcss and shadcn ui."
+            image={pThumbnail}
+            link="https://libyzxy0.com"
+            repo="https://github.com/libyzxy0/modern-portfolio"
+            langs={[
+              "React",
+              "Tailwindcss", 
+              "ShadcnUI"
             ]}
           />
         </div>
