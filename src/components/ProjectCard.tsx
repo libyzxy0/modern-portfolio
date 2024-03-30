@@ -1,5 +1,6 @@
-import { Icon } from '@iconify/react';
-import SlideAnimation from '@/components/slideInAnimation'
+import React from "react";
+import { Icon } from "@iconify/react";
+import SlideAnimation from "@/components/slideInAnimation";
 import {
   Card,
   CardContent,
@@ -7,7 +8,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card"
+} from "@/components/ui/card";
+import skillsData from "@/data/skills";
 
 interface ProjectCardProps {
   title: string;
@@ -15,24 +17,45 @@ interface ProjectCardProps {
   image: string;
   langs: string[];
 }
-import skillsData from '@/data/skills';
-export default function ProjectCard({ title, description, image, langs }: ProjectCardProps) {
+
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  title,
+  description,
+  image,
+  langs,
+}) => {
   return (
     <SlideAnimation>
       <Card className="bg-gray-800 border-l-0 border-r-0 border-b-0 border-t-[0.4rem] border-sky-300 mt-4 md:max-w-[24rem] md:mx-2">
         <CardContent className="h-[13rem] p-2">
-          <img src={image} alt={title} className="h-[12rem] w-[100%] rounded-lg" />
+          <img
+            src={image}
+            alt={title}
+            className="h-[12rem] w-[100%] rounded-lg"
+          />
         </CardContent>
         <CardHeader>
           <CardTitle className="text-sky-300">{title}</CardTitle>
-          <CardDescription className="text-gray-400">{description}</CardDescription>
+          <CardDescription className="text-gray-400">
+            {description}
+          </CardDescription>
         </CardHeader>
         <CardFooter className="flex flex-row flex-wrap">
-          {langs.map((lang, index) => (
-            <Icon key={index} className="h-5 w-5 md:h-7 md:w-7 mr-2" icon={skillsData.find((skill) => skill.name === lang)?.icon} />
-          ))}
+          {langs.map((lang, index) => {
+            const skill = skillsData.find((skill) => skill.name === lang);
+            if (!skill) return null;
+            return (
+              <Icon
+                key={index}
+                className="h-5 w-5 md:h-7 md:w-7 mr-2"
+                icon={skill.icon}
+              />
+            );
+          })}
         </CardFooter>
       </Card>
     </SlideAnimation>
   );
-}
+};
+
+export default ProjectCard;

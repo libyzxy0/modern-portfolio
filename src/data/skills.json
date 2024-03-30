@@ -1,74 +1,74 @@
 [
   {
-    "name": "JavaScript", 
+    "name": "JavaScript",
     "icon": "logos:javascript"
-  }, 
+  },
   {
-    "name": "Html", 
+    "name": "Html",
     "icon": "vscode-icons:file-type-html"
-  }, 
+  },
   {
-    "name": "Css", 
+    "name": "Css",
     "icon": "vscode-icons:file-type-css"
-  }, 
+  },
   {
-    "name": "React", 
+    "name": "React",
     "icon": "logos:react"
-  }, 
+  },
   {
-    "name": "Vue", 
+    "name": "Vue",
     "icon": "logos:vue"
-  }, 
+  },
   {
-    "name": "Nuxt", 
+    "name": "Nuxt",
     "icon": "logos:nuxt-icon"
-  }, 
+  },
   {
-    "name": "Node.js", 
+    "name": "Node.js",
     "icon": "skill-icons:nodejs-dark"
-  }, 
+  },
   {
-    "name": "MongoDB", 
+    "name": "MongoDB",
     "icon": "skill-icons:mongodb"
-  }, 
+  },
   {
-    "name": "Firebase", 
+    "name": "Firebase",
     "icon": "logos:firebase"
-  }, 
+  },
   {
-    "name": "Tailwindcss", 
+    "name": "Tailwindcss",
     "icon": "skill-icons:tailwindcss-dark"
-  }, 
+  },
   {
-    "name": "Bootstrap", 
+    "name": "Bootstrap",
     "icon": "logos:bootstrap"
-  }, 
+  },
   {
-    "name": "Vercel", 
+    "name": "Vercel",
     "icon": "skill-icons:vercel-dark"
-  }, 
+  },
   {
-    "name": "Netlify", 
+    "name": "Netlify",
     "icon": "skill-icons:netlify-dark"
-  }, 
+  },
   {
-    "name": "Git", 
+    "name": "Git",
     "icon": "devicon:git"
-  }, 
+  },
   {
-    "name": "Github", 
+    "name": "Github",
     "icon": "fontisto:github"
   },
   {
-    "name": "Express", 
+    "name": "Express",
     "icon": "simple-icons:express"
   },
   {
-    "name": "VS Code", 
+    "name": "VS Code",
     "icon": "skill-icons:vscode-dark"
   },
   {
-    "name": "Arduino", 
+    "name": "Arduino",
     "icon": "skill-icons:arduino"
   }
 ]

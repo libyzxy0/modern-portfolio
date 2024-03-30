@@ -1,13 +1,13 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 
 const config = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -67,25 +67,25 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        "wave": {
-          '0%': { transform: 'rotate(0.0deg)' },
-          '15%': { transform: 'rotate(14.0deg)' },
-          '30%': { transform: 'rotate(-8.0deg)' }, 
-          '40%': { transform: 'rotate(14.0deg)' },
-          '50%': { transform: 'rotate(-4.0deg)' },
-          '60%': { transform: 'rotate(10.0deg)' },
-          '70%': { transform: 'rotate(0.0deg)' }, 
-          '100%': { transform: 'rotate(0.0deg)' },
-        }
+        wave: {
+          "0%": { transform: "rotate(0.0deg)" },
+          "15%": { transform: "rotate(14.0deg)" },
+          "30%": { transform: "rotate(-8.0deg)" },
+          "40%": { transform: "rotate(14.0deg)" },
+          "50%": { transform: "rotate(-4.0deg)" },
+          "60%": { transform: "rotate(10.0deg)" },
+          "70%": { transform: "rotate(0.0deg)" },
+          "100%": { transform: "rotate(0.0deg)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "wave": "wave 1.5s infinite"
+        wave: "wave 1.5s infinite",
       },
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config
+} satisfies Config;
 
-export default config
+export default config;
