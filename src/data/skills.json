@@ -4,6 +4,14 @@
     "icon": "logos:javascript"
   },
   {
+    "name": "TypeScript",
+    "icon": "logos:typescript-icon"
+  },
+  {
+    "name": "Python",
+    "icon": "logos:python"
+  },
+  {
     "name": "Html",
     "icon": "vscode-icons:file-type-html"
   },

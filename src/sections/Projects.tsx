@@ -48,6 +48,7 @@ export default function Projects() {
             langs={[
               "React",
               "Tailwindcss", 
+              "TypeScript", 
               "ShadcnUI"
             ]}
           />
