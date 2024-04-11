@@ -2,6 +2,7 @@ import Project from "@/components/ProjectCard";
 import tikDownThumbnail from "@/assets/images/tikdown-click.png";
 import shotiThumbnail from "@/assets/images/shoti-api.png";
 import pThumbnail from "@/assets/images/modern-portfolio.png";
+import wThumbnail from "@/assets/images/weather-app.png";
 export default function Projects() {
   return (
     <>
@@ -52,6 +53,20 @@ export default function Projects() {
               "ShadcnUI"
             ]}
           />
+          <Project
+            title="Weather App"
+            description="A simple weather forecast website using React."
+            image={wThumbnail}
+            link="https://weather-app-beryl-five.vercel.app"
+            repo="https://github.com/libyzxy0/weather-app"
+            langs={[
+              "React",
+              "Tailwindcss", 
+              "TypeScript", 
+              "ShadcnUI"
+            ]}
+          />
+          
         </div>
       </section>
     </>
