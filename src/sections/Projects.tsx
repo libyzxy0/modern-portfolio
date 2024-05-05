@@ -3,6 +3,7 @@ import tikDownThumbnail from "@/assets/images/tikdown-click.png";
 import shotiThumbnail from "@/assets/images/shoti-api.png";
 import pThumbnail from "@/assets/images/modern-portfolio.png";
 import wThumbnail from "@/assets/images/weather-app.png";
+import ssThumbnail from "@/assets/images/speedsnippet.png";
 export default function Projects() {
   return (
     <>
@@ -17,6 +18,20 @@ export default function Projects() {
           <div className="h-1 w-14 rounded-full bg-gradient-to-r from-sky-200 to-blue-400 md:w-20 md:h-2"></div>
         </header>
         <div className="mx-7 md:mx-10 flex justify-center items-center flex-col md:flex-row md:flex-wrap mt-12 md:justify-start ">
+        <Project
+            title="SpeedSnippet ⚡"
+            description="A platform where you can share your code snippets or ask a question, it is designed to help other developers."
+            image={ssThumbnail}
+            link="https://speedsnippet.xyz"
+            repo="https://github.com/libyzxy0/SpeedSnippet"
+            langs={[
+              "React",
+              "Tailwindcss", 
+              "TypeScript", 
+              "ShadcnUI", 
+              "Supabase"
+            ]}
+          />
           <Project
             title="TikDown.click"
             description="A website where you can download tiktok videos without watermark."
