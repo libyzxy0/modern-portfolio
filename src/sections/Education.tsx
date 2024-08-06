@@ -23,6 +23,9 @@ export default function Education() {
           <TimelineItem title="Junior High School">
             Studied Grade 8-10 at Sto. Cristo National High School (307509)
           </TimelineItem>
+          <TimelineItem title="Senior High School (ICT)">
+            Currently studying Information and Communications Technology at La Concepcion College
+          </TimelineItem>
         </div>
       </section>
     </>

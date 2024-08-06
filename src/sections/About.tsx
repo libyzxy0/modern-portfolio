@@ -16,7 +16,7 @@ export default function About() {
         <div className="mx-6 md:ml-10 md:mr-40 mt-8">
           <SlideAnimation>
             <p className="text-gray-400 font-[400] text-md mt-3">
-              I'm a 15-year-old full-stack web developer, mainly focusing on
+              I'm a 16-year-old full-stack web developer, mainly focusing on
               frontend work, and I've been doing this for over two years now.
             </p>
           </SlideAnimation>
