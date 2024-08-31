@@ -4,6 +4,10 @@ import shotiThumbnail from "@/assets/images/shoti-api.png";
 import pThumbnail from "@/assets/images/modern-portfolio.png";
 import wThumbnail from "@/assets/images/weather-app.png";
 import ssThumbnail from "@/assets/images/speedsnippet.png";
+import shortRL from '@/assets/66d27b27db96c20eee11cb64.jpg'
+import niceTea from '@/assets/66d27b4c2cfc1553347c73cf.jpg'
+
+
 export default function Projects() {
   return (
     <>
@@ -30,6 +34,32 @@ export default function Projects() {
               "TypeScript", 
               "ShadcnUI", 
               "Supabase"
+            ]}
+          />
+        <Project
+            title="ShortRL" 
+            description="Easy to use URL Shortener, paste your link and get shortened one."
+            image={shortRL}
+            link="https://shortrl.libyzxy0.com"
+            repo="https://github.com/libyzxy0/url-shortener"
+            langs={[
+              "React",
+              "Tailwindcss", 
+              "TypeScript", 
+              "Node.js",
+              "Express"
+            ]}
+          />
+        <Project
+            title="Nice Tea"
+            description="Simple Milktea shop showcasing MilkTea products."
+            image={niceTea}
+            link="https://nicetea.vercel.app"
+            repo="https://github.com/libyzxy0/nicetea"
+            langs={[
+              "React",
+              "Tailwindcss", 
+              "TypeScript"
             ]}
           />
           <Project
