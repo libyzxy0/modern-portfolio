@@ -4,8 +4,8 @@ import shotiThumbnail from "@/assets/images/shoti-api.png";
 import pThumbnail from "@/assets/images/modern-portfolio.png";
 import wThumbnail from "@/assets/images/weather-app.png";
 import ssThumbnail from "@/assets/images/speedsnippet.png";
-import shortRL from '@/assets/66d27b27db96c20eee11cb64.jpg'
-import niceTea from '@/assets/66d27b4c2cfc1553347c73cf.jpg'
+import shortRL from '@/assets/images/66d27b27db96c20eee11cb64.jpg'
+import niceTea from '@/assets/images/66d27b4c2cfc1553347c73cf.jpg'
 
 
 export default function Projects() {
